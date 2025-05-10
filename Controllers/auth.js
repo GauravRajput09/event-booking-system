@@ -158,7 +158,7 @@ const login = async (req, res) => {
   }
 };
 
-// get cirrrent user
+// get current user
 const getCurrentUser = async (req, res) => {
   const user = req.user;
   try {
